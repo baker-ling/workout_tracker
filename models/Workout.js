@@ -55,7 +55,10 @@ const workoutSchema = new Schema({
     required: "Specify a date for the workout",
     default: Date.now
   },
-  exercises: [exerciseSchema]
+  exercises: {
+    type: [exerciseSchema],
+    default: []
+  }
 });
 
 const Workout = mongoose.model("Workout", workoutSchema);
