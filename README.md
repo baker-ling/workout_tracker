@@ -56,7 +56,7 @@ The last feature is the Dashboard, reachable through the top nav bar. It shows s
 
 ## Tests
 
-Seed data is provided for testing. Run `npm run seed` at the console to initialize the database with seed data so you can git the app a test run.
+Seed data is provided for testing. Run `npm run seed` at the console to initialize the database with seed data so you can give the app a test run.
 
 ## Questions
 
